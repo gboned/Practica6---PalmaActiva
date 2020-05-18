@@ -11,3 +11,8 @@
 
 // Creo una variable global que contenga una array vacía.
 var listaMarcasDeCoche = [];
+
+// Creo una función que solicite al usuario su nombre y las 3 marcas de coche.
+function solicitarDatosUsuario() {
+
+}

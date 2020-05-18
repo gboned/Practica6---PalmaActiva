@@ -19,4 +19,6 @@ function solicitarDatosUsuario() {
         listaMarcasDeCoche.push(marcaCoche1);
     var marcaCoche2 = String(prompt("Introduce tu segunda marca de coche: "));
         listaMarcasDeCoche.push(marcaCoche2);
+    var marcaCoche3 = String(prompt("Introduce tu tercera marca de coche: "))
+        listaMarcasDeCoche.push(marcaCoche3);
 }

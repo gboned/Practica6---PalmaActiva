@@ -15,4 +15,5 @@ var listaMarcasDeCoche = [];
 // Creo una función que solicite al usuario su nombre y las 3 marcas de coche.
 function solicitarDatosUsuario() {
     var nombreUsuario = String(prompt("Por favor, introduce tu nombre: "));
+    var marcaCoche1 = String(prompt(`Hola ${nombreUsuario}, introduce tu primera marca de coche: `));
 }

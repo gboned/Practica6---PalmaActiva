@@ -33,6 +33,12 @@ function solicitarDatosUsuario() {
 
         // Muestro en la consola la array resultante, nombrando también al usuario.
         console.log(`El usuario ${nombreUsuario} ha tenido los siguientes coches: ${listaMarcasDeCoche}.`);
+        // Muestro en el navegador la misma información pero colocada de forma distinta.
+        document.write(`Nombre de Usuario: ${nombreUsuario} <br> Lista de Marcas de Coche: `);
+        // Con un bucle for recorro cada una de las marcas de coche, para que las devuelva separadas por un espacio.
+        for (var marcaCoche = 0; marcaCoche < listaMarcasDeCoche.length; marcaCoche++) {
+            document.write(listaMarcasDeCoche[marcaCoche], "\t");
+        }
 }
 
 solicitarDatosUsuario();

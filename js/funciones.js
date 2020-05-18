@@ -31,7 +31,7 @@ function solicitarDatosUsuario() {
     var marcaCoche3 = String(prompt("Introduce tu tercera marca de coche: ", "Tercera marca de coche"))
         listaMarcasDeCoche.push(marcaCoche3);
 
-        // Muestro en la consola la array resultante.
+        // Muestro en la consola la array resultante, nombrando también al usuario.
         console.log(`El usuario ${nombreUsuario} ha tenido los siguientes coches: ${listaMarcasDeCoche}.`);
 }
 

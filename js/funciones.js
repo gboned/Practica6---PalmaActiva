@@ -16,4 +16,5 @@ var listaMarcasDeCoche = [];
 function solicitarDatosUsuario() {
     var nombreUsuario = String(prompt("Por favor, introduce tu nombre: "));
     var marcaCoche1 = String(prompt(`Hola ${nombreUsuario}, introduce tu primera marca de coche: `));
+        listaMarcasDeCoche.push(marcaCoche1);
 }
